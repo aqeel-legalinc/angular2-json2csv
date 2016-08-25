@@ -1,1 +1,1 @@
-import {CsvService} from "./src/csv.service.ts";
+export {CsvService} from "./src/csv.service.ts";
