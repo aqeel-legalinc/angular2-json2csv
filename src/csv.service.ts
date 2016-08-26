@@ -10,7 +10,7 @@ export class  CsvService {
     }
 
     // Download CSV
-    download(data, filename){
+    download(data:any, filename:string){
         console.log(data);
         var csvData = this.ConvertToCSV(data);
         var a = document.createElement("a");
@@ -26,7 +26,7 @@ export class  CsvService {
 
 
     // convert Json to CSV data
-    ConvertToCSV(objArray) {
+    ConvertToCSV(objArray:any) {
             var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
             var str = '';
             var row = "";
