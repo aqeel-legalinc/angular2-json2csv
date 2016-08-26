@@ -1,23 +1,91 @@
 {
-  "name": "angular2-json2csv",
-  "version": "1.0.1",
+  "_args": [
+    [
+      {
+        "raw": "angular2-json2csv",
+        "scope": null,
+        "escapedName": "angular2-json2csv",
+        "name": "angular2-json2csv",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/aqeel/legalinc/legalinc-new/public/UI/CRCNEW"
+    ]
+  ],
+  "_from": "angular2-json2csv@latest",
+  "_id": "angular2-json2csv@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular2-json2csv",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular2-json2csv-1.0.1.tgz_1472130432031_0.653154672589153"
+  },
+  "_npmUser": {
+    "name": "aqeel.legalinc",
+    "email": "aqeel.legalinc@nxvt.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular2-json2csv",
+    "scope": null,
+    "escapedName": "angular2-json2csv",
+    "name": "angular2-json2csv",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular2-json2csv/-/angular2-json2csv-1.0.1.tgz",
+  "_shasum": "2b48466e2d8421d019af53760fa93458fe57a620",
+  "_shrinkwrap": null,
+  "_spec": "angular2-json2csv",
+  "_where": "/home/aqeel/legalinc/legalinc-new/public/UI/CRCNEW",
+  "author": {
+    "name": "Aqeel Shamas",
+    "email": "aqeel.legalinc@nxvt.com",
+    "url": "http://vteams.com"
+  },
+  "bugs": {
+    "url": "https://github.com/aqeel-legalinc/angular2-json2csv/issues"
+  },
+  "dependencies": {},
   "description": "Service to convert Json to Downloadable csv",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "2b48466e2d8421d019af53760fa93458fe57a620",
+    "tarball": "https://registry.npmjs.org/angular2-json2csv/-/angular2-json2csv-1.0.1.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aqeel-legalinc/angular2-json2csv.git"
-  },
+  "gitHead": "9d4835263e7b95a45da9e3cb9d087ba5108a22e6",
+  "homepage": "https://github.com/aqeel-legalinc/angular2-json2csv#readme",
   "keywords": [
     "angular2",
     "json2csv"
   ],
-  "author": "Aqeel Shamas <aqeel.legalinc@nxvt.com> (http://vteams.com)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aqeel-legalinc/angular2-json2csv/issues"
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "aqeel.legalinc",
+      "email": "aqeel.legalinc@nxvt.com"
+    }
+  ],
+  "name": "angular2-json2csv",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqeel-legalinc/angular2-json2csv.git"
   },
-  "homepage": "https://github.com/aqeel-legalinc/angular2-json2csv#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }

@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var CsvService = (function () {
     function CsvService() {
+        // Blank Constructor for Demo Purpose
     }
     // Download CSV
     CsvService.prototype.download = function (data, filename) {
@@ -23,6 +24,7 @@ var CsvService = (function () {
         var url = window.URL.createObjectURL(blob);
         a.href = url;
         a.download = filename + '.csv';
+        // If you will any error in a.download then dont worry about this. 
         a.click();
     };
     // convert Json to CSV data
