@@ -52,7 +52,7 @@
 21 silly publish      type: 'tag' },
 21 silly publish   _requiredBy: [ '#USER', '/' ],
 21 silly publish   _resolved: 'https://registry.npmjs.org/angular2-json2csv/-/angular2-json2csv-1.0.1.tgz',
-21 silly publish   _shasum: '6a11978c72f3c02b15f0795fe637b7555d294f2e',
+21 silly publish   _shasum: '23f656e0771a0a1c2ad6d0f3ccee175c3e5e6671',
 21 silly publish   _shrinkwrap: null,
 21 silly publish   _spec: 'angular2-json2csv',
 21 silly publish   _where: '/home/aqeel/legalinc/legalinc-new/public/UI/CRCNEW',
@@ -99,22 +99,22 @@
 29 silly publish uploading /home/aqeel/.npm/angular2-json2csv/1.0.1/package.tgz
 30 verbose request uri https://registry.npmjs.org/angular2-json2csv
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 12:50:15 PM
+32 info attempt registry request try #1 at 12:59:07 PM
 33 verbose request using bearer token for auth
-34 verbose request id 9eb20bf6c2100339
+34 verbose request id 128826b01222ba13
 35 http request PUT https://registry.npmjs.org/angular2-json2csv
 36 http 403 https://registry.npmjs.org/angular2-json2csv
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '95',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Fri, 26 Aug 2016 07:50:22 GMT',
+37 verbose headers   date: 'Fri, 26 Aug 2016 07:59:09 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+37 verbose headers   'x-served-by': 'cache-bma7029-BMA',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1472197821.444168,VS0,VE1186',
+37 verbose headers   'x-timer': 'S1472198348.350748,VS0,VE1077',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating /home/aqeel/.npm/registry.npmjs.org/angular2-json2csv on PUT
 39 error publish Failed PUT 403
