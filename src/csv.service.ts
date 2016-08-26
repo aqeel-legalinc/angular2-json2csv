@@ -11,7 +11,6 @@ export class  CsvService {
 
     // Download CSV
     download(data:any, filename:string){
-        console.log(data);
         var csvData = this.ConvertToCSV(data);
         var a = document.createElement("a");
         a.setAttribute('style', 'display:none;');
