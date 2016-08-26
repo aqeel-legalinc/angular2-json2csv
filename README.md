@@ -1,29 +1,20 @@
 # angular2-json2csv
-Angular Component to convert CSV from Json 
 
+Angular Service to convert CSV from Json and download that file in browser.
 
-## Setup Instructions
+## Setup & Usage Instructions
 
-Usage:
+  - Install module Using following Command
+  - npm install angular2-json2csv --save
+  - Include in your component 
+  - import {CsvService} from "angular2-json2csv";
+  - Define "CsvService" as providers
+  - Define this "CsvService" in your constuctor
+  - constructor(private _csvService: CsvService) { // with all other variables you have
 
-Install module Using following Command
+Now you just need to call download function with two params 
+- this._csvService.download(data, 'Filename'); 
+ 
+Note: If you are using SystemJS, then don't forget to add this module in  systemjs.config.js
 
-npm install angular2-json2csv --save
-
-Include in your component 
-import {CsvService} from "angular2-json2csv";
-
-Define "CsvService" as providers
-
-Define this "CsvService" in your constuctor
-
-constructor(private _csvService: CsvService) { // with all other variables you have
-
-now you just need to call download function with two params 
-
-this._csvService.download(data, 'Filename'); 
-
-You are all set now. Integrate this and Enjoy! 
-
-
-### If you are using SystemJS, then don't forget to add this module in  systemjs.config.js
+You are all set now. Integrate this and Enjoy!
