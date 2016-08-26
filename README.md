@@ -24,3 +24,6 @@ now you just need to call download function with two params
 this._csvService.download(data, 'Filename'); 
 
 You are all set now. Integrate this and Enjoy! 
+
+
+### If you are using SystemJS, then don't forget to add this module in  systemjs.config.js
