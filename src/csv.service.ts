@@ -12,7 +12,7 @@ export class  CsvService {
     // Download CSV
     download(data:any, filename:string){
         var csvData = this.ConvertToCSV(data);
-        var a = document.createElement("a");
+        var a: any = document.createElement("a");
         a.setAttribute('style', 'display:none;');
         document.body.appendChild(a);
         var blob = new Blob([csvData], { type: 'text/csv' });
