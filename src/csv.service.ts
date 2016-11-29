@@ -18,7 +18,13 @@ export class  CsvService {
         var blob = new Blob([csvData], { type: 'text/csv' });
         var url= window.URL.createObjectURL(blob);
         a.href = url;
-        a.download = filename+'.csv';
+        if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv 11/)) || $.browser.msie == 1)
+        {   
+            var retVal = navigator.msSaveBlob(blob, filename+'.csv');
+        }
+        else{
+            a.download = filename+'.csv';
+        }
         // If you will any error in a.download then dont worry about this. 
         a.click();
     }

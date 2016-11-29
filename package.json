@@ -11,17 +11,29 @@
         "type": "tag"
       },
       "/home/aqeel/legalinc/legalinc-new/public/UI/CRCNEW"
+    ],
+    [
+      {
+        "raw": "angular2-json2csv@^1.0.2",
+        "scope": null,
+        "escapedName": "angular2-json2csv",
+        "name": "angular2-json2csv",
+        "rawSpec": "^1.0.2",
+        "spec": ">=1.0.2 <2.0.0",
+        "type": "range"
+      },
+      "/home/naumanyousaf/www/legalinc/legalinc-new/public/UI/CRC"
     ]
   ],
-  "_from": "angular2-json2csv@latest",
-  "_id": "angular2-json2csv@1.0.1",
+  "_from": "angular2-json2csv@^1.0.2",
+  "_id": "angular2-json2csv@1.0.4",
   "_inCache": true,
   "_installable": true,
   "_location": "/angular2-json2csv",
   "_nodeVersion": "6.4.0",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/angular2-json2csv-1.0.1.tgz_1472130432031_0.653154672589153"
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/angular2-json2csv-1.0.4.tgz_1472206804127_0.6947243742179126"
   },
   "_npmUser": {
     "name": "aqeel.legalinc",
@@ -30,23 +42,22 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "angular2-json2csv",
+    "raw": "angular2-json2csv@^1.0.2",
     "scope": null,
     "escapedName": "angular2-json2csv",
     "name": "angular2-json2csv",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^1.0.2",
+    "spec": ">=1.0.2 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/angular2-json2csv/-/angular2-json2csv-1.0.1.tgz",
-  "_shasum": "2b48466e2d8421d019af53760fa93458fe57a620",
+  "_resolved": "https://registry.npmjs.org/angular2-json2csv/-/angular2-json2csv-1.0.4.tgz",
+  "_shasum": "3a8435434e6b98d189b562d4453eda4d46467018",
   "_shrinkwrap": null,
-  "_spec": "angular2-json2csv",
-  "_where": "/home/aqeel/legalinc/legalinc-new/public/UI/CRCNEW",
+  "_spec": "angular2-json2csv@^1.0.2",
+  "_where": "/home/naumanyousaf/www/legalinc/legalinc-new/public/UI/CRC",
   "author": {
     "name": "Aqeel Shamas",
     "email": "aqeel.legalinc@nxvt.com",
@@ -60,8 +71,8 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "2b48466e2d8421d019af53760fa93458fe57a620",
-    "tarball": "https://registry.npmjs.org/angular2-json2csv/-/angular2-json2csv-1.0.1.tgz"
+    "shasum": "3a8435434e6b98d189b562d4453eda4d46467018",
+    "tarball": "https://registry.npmjs.org/angular2-json2csv/-/angular2-json2csv-1.0.4.tgz"
   },
   "gitHead": "9d4835263e7b95a45da9e3cb9d087ba5108a22e6",
   "homepage": "https://github.com/aqeel-legalinc/angular2-json2csv#readme",
