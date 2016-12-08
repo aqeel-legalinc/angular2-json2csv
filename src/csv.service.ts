@@ -18,7 +18,7 @@ export class  CsvService {
         var blob = new Blob([csvData], { type: 'text/csv' });
         var url= window.URL.createObjectURL(blob);
         a.href = url;
-        if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv 11/)) || $.browser.msie == 1)
+        if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv 11/)) || ($.browser.msie && $.browser.msie == 1))
         {   
             var retVal = navigator.msSaveBlob(blob, filename+'.csv');
         }
