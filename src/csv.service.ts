@@ -19,7 +19,7 @@ export class  CsvService {
         var url= window.URL.createObjectURL(blob);
         a.href = url;
         
-        var isIE = /*@cc_on!@*/false || !!document.documentMode;
+        var isIE = /*@cc_on!@*/false || !!(<any> document).documentMode;
         
         if (isIE)
         {   
