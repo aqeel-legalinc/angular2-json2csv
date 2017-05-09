@@ -36,7 +36,7 @@ export class  CsvService {
     // convert Json to CSV data
     ConvertToCSV(objArray:any) {
             var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
-            var str = '';
+            var str = '"sep=,"\r\n';
             var row = "";
 
             for (var index in objArray[0]) {
