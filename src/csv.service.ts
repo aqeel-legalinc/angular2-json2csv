@@ -40,46 +40,43 @@ export class  CsvService {
         {
             a.click();
         }
-        
-        
-        // convert Json to CSV data
-        ConvertToCSV( objArray:any, suppressHeader:boolean = false /* J. Pagakis 20170601 */ ) {
-            var array = typeof objArray != 'object' ? JSON.parse( objArray ) : objArray;
-            var str = '';
-            var row = "";
-            
-            for ( var index in objArray[ 0 ] )
-            {
-                //Convert each value to string and comma-seprated
-                row += index + ',';
-            }
-            
-            row = row.slice( 0, -1 );
-            
-            //append Label row with line break
-            
-            if ( ! suppressHeader )  // J. Pagakis 20170601
-            {
-                str += row + '\r\n';
-            }
-            
-            for ( var i = 0; i < array.length; i++ )
-            {
-                var line = '';
-                for ( var index in array[ i ] )
-                {
-                    if ( line != '' ) line += ',';
-                    
-                    line += '"' + array[ i ][ index ] + '"';
-                }
-                
-                str += line + '\r\n';
-            }
-            
-            return str;
-        }
     }
-            
-            
-            
-            
+    
+    
+    // convert Json to CSV data
+    ConvertToCSV( objArray:any, suppressHeader:boolean = false /* J. Pagakis 20170601 */ ) {
+        var array = typeof objArray != 'object' ? JSON.parse( objArray ) : objArray;
+        var str = '';
+        var row = "";
+
+        for ( var index in objArray[ 0 ] )
+        {
+            //Convert each value to string and comma-seprated
+            row += index + ',';
+        }
+
+        row = row.slice( 0, -1 );
+
+        //append Label row with line break
+
+        if ( ! suppressHeader )  // J. Pagakis 20170601
+        {
+            str += row + '\r\n';
+        }
+
+        for ( var i = 0; i < array.length; i++ )
+        {
+            var line = '';
+            for ( var index in array[ i ] )
+            {
+                if ( line != '' ) line += ',';
+
+                line += '"' + array[ i ][ index ] + '"';
+            }
+
+            str += line + '\r\n';
+        }
+
+        return str;
+    }
+}
