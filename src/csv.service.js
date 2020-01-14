@@ -39,6 +39,7 @@ var CsvService = (function () {
         var row = "";
         for (var index in objArray[0]) {
             //Now convert each value to string and comma-seprated
+            index = '\"' + index + '\"';
             row += index + ',';
         }
         row = row.slice(0, -1);
